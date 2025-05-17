@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychotherapie-Praxis [Ihr Name]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            color: #007bff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        main section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+        }
+        main section h2 {
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        main section img {
+            max-width: 150px;
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            margin-bottom: 15px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+        .contact-form textarea {
+            min-height: 100px;
+        }
+        .contact-form button {
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        /* Clear floats to prevent layout issues */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Psychotherapie-Praxis [Ihr Name]</h1>
+            <nav>
+                <ul>
+                    <li><a href="#ueber-mich">Über Mich</a></li>
+                    <li><a href="#angebot">Mein Angebot</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="ueber-mich" class="clearfix">
+                <h2>Über Mich</h2>
+                <img src="ihr-bild.jpg" alt="Bild von [Ihr Name]">
+                <p>Herzlich willkommen auf meiner Seite! Mein Name ist [Ihr Name] und ich bin ein erfahrener Psychotherapeut/eine erfahrene Psychotherapeutin. Ich biete Ihnen professionelle Unterstützung in schwierigen Lebensphasen und bei psychischen Belastungen.</p>
+                <p>Hier können Sie mehr über meinen therapeutischen Ansatz und meine Schwerpunkte erfahren. Ich lege Wert auf eine vertrauensvolle und wertschätzende therapeutische Beziehung, in der Sie sich sicher und verstanden fühlen können.</p>
+                <p>Meine Arbeitsweise ist [fügen Sie hier Stichworte zu Ihrem therapeutischen Ansatz ein, z.B., tiefenpsychologisch fundiert, kognitiv-verhaltenstherapeutisch, systemisch].</p>
+            </section>
+
+            <section id="angebot">
+                <h2>Mein Angebot</h2>
+                <p>Ich biete Ihnen ein breites Spektrum an psychotherapeutischen Leistungen an, darunter:</p>
+                <ul>
+                    <li>Einzeltherapie für Erwachsene und Jugendliche</li>
+                    <li>Paartherapie zur Stärkung Ihrer Beziehung</li>
+                    <li>Gesprächstherapie zur Bewältigung persönlicher Krisen</li>
+                    <li>Entspannungstechniken zur Stressreduktion</li>
+                    <li>[Fügen Sie weitere Angebote hinzu]</li>
+                </ul>
+                <p>Meine Schwerpunkte liegen in den Bereichen [fügen Sie hier Ihre Schwerpunkte ein, z.B., Depressionen, Angststörungen, Burnout, Trauma, Beziehungsprobleme]. Ich begleite Sie gerne auf Ihrem Weg zu mehr Wohlbefinden und Lebensqualität.</p>
+            </section>
+
+            <section id="kontakt">
+                <h2>Kontakt</h2>
+                <p>Sie möchten einen Termin vereinbaren oder haben Fragen? Kontaktieren Sie mich gerne!</p>
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">E-Mail:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="betreff">Betreff:</label>
+                        <input type="text" id="betreff" name="betreff">
+
+                        <label for="nachricht">Nachricht:</label>
+                        <textarea id="nachricht" name="nachricht" rows="5" required></textarea>
+
+                        <button type="submit">Senden</button>
+                    </form>
+                </div>
+                <p>Sie erreichen mich auch telefonisch unter: <a href="tel:[Ihre Telefonnummer]">[Ihre Telefonnummer]</a></p>
+                <p>Meine Praxis befindet sich in: [Ihre Adresse]</p>
+                <p><a href="mailto:[Ihre E-Mail-Adresse]">Senden Sie mir eine E-Mail</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Psychotherapie-Praxis [Ihr Name]</p>
+        </footer>
+    </div>
+</body>
+</html>
